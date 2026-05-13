@@ -1,0 +1,14 @@
+services:
+  sync:
+    image: ghcr.io/damian11/couchmoney-autosync:latest
+    container_name: couchmoney-autosync
+    env_file: .env
+    # Setting DEBUG to "true" turns on verbose logs
+    # environment:
+    #   DEBUG: "false"
+    volumes:
+      # Needed to persist sync history for enforcing the interval
+      - data:/app/data/
+    restart: unless-stopped
+volumes:
+  data:

@@ -1,0 +1,27 @@
+{
+  "name": "couchmoney_autosync",
+  "version": "0.0.1",
+  "description": "A simple project to automatically trigger couchmoney list synchronization for one or more accounts at a set interval.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "DEBUG=true tsx src/index.ts"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "axios": "^1.16.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.4.2",
+    "zod": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}
