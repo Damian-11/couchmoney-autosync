@@ -13,13 +13,13 @@ This program provides a solution by allowing you to trigger updates to your reco
 This program is designed to be run as a Docker container. First, download the `compose.yaml` file with from this repository:
 
 ```
-curl -O https://raw.githubusercontent.com/Damian-11/couchmoney-autosync/compose.yaml
+curl -O https://raw.githubusercontent.com/Damian-11/couchmoney-autosync/refs/heads/master/compose.yaml
 ```
 
 Then, download the .env.example file and fill out the required settings:
 
 ```
-curl -o .env https://raw.githubusercontent.com/Damian-11/couchmoney-autosync/.env.example
+curl -o .env https://raw.githubusercontent.com/Damian-11/couchmoney-autosync/refs/heads/master/.env.example
 # Edit the .env file
 ```
 
