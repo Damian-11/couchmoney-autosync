@@ -1,6 +1,6 @@
 services:
   sync:
-    image: ghcr.io/damian11/couchmoney-autosync:latest
+    image: ghcr.io/damian-11/couchmoney-autosync:latest
     container_name: couchmoney-autosync
     env_file: .env
     # Setting DEBUG to "true" turns on verbose logs
