@@ -1,6 +1,6 @@
 {
   "name": "couchmoney_autosync",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A simple project to automatically trigger couchmoney list synchronization for one or more accounts at a set interval.",
   "main": "dist/index.js",
   "scripts": {
